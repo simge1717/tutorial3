@@ -1,0 +1,92 @@
+/*
+   New Perspectives on HTML
+   Tutorial 3
+   Case Problem 1
+
+   ICI Text and Color Styles
+   Author: Simge Sinav
+   Date:   11/06/2025
+
+   Filename:         c_styles.css
+   Supporting Files: none
+
+*/
+
+
+/* ---------------------------------------------
+   Page Body Styles
+   Set background to black, text to white, 
+   and font to Century Gothic or sans-serif
+--------------------------------------------- */
+
+
+
+body {
+    background-color: black;     
+    color: white;               
+    font-family: "Century Gothic", sans-serif;  
+}
+
+
+
+/* ---------------------------------------------
+   Header h1 Styles
+   Display h1 inside header in yellow, use 
+   monospace font, set font size to 28px, 
+   kerning to 20px, and center the text
+--------------------------------------------- */
+
+
+
+header h1 {
+    color: yellow;                      
+    font-family: "Courier New", Courier, monospace;  
+    font-size: 28px;                      
+    letter-spacing: 20px;                
+    text-align: center;                 
+}
+
+/* ---------------------------------------------
+  Set h2 inside article to 24px, normal weight,
+   and kerning to 5px
+--------------------------------------------- */
+
+
+article h2 {
+    font-size: 24px;       
+    font-weight: normal;   
+    letter-spacing: 5px;  
+}
+
+
+
+article p {
+    text-align: justify;  
+}
+
+
+strong.keyword {
+    color: yellow;       
+    font-weight: normal;  
+}
+
+/* ---------------------------------------------
+   Footer Paragraph Styles
+   Center text in paragraphs inside footer
+--------------------------------------------- */
+
+
+footer p {
+    text-align: center;  
+}
+
+
+/* ---------------------------------------------
+   Image Maps Styles
+   Remove border from inline images that use
+   image maps
+--------------------------------------------- */
+
+img[usemap] {
+    border: 0;  
+}
